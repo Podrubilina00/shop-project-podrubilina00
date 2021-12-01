@@ -71,7 +71,13 @@
     color: $black;
     opacity: 0.67;
 
-    background: $beige;
+    background: #E1E1E1;
+
+    transition: box-shadow .2s linear;
+
+    &:hover {
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.295);
+    }
 }
 
 .feedback__button {
@@ -88,8 +94,10 @@
     background: $main-color;
 
     transition: background .2s linear;
+    transition: box-shadow .2s linear;
 
     &:hover {
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.295);
         background: $main-color-dark;
     }
 }

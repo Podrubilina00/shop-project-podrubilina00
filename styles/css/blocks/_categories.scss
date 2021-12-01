@@ -54,11 +54,15 @@
     position: absolute;
     z-index: 2;
 
-    transition: background .2s linear;
+    transition: background-color .3s linear;
+    transition: box-shadow .2s linear;
 
     &:hover {
-        background: rgba(33, 22, 22, 0.5);
+        transition: background-color .3s linear;
+        background-color: rgba(33, 22, 22, 0.5);
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.295);
     }
+
 }
 
 
