@@ -435,7 +435,14 @@ body {
   color: #222224;
 }
 
+.feedback__form {
+  padding-left: 100px;
+  width: auto;
+  float: left;
+}
+
 .feedback__input {
+  position: relative;
   width: 256px;
   padding: 18px 64px 16px 22px;
   margin-right: 0;
@@ -445,13 +452,17 @@ body {
   color: #222224;
   opacity: 0.67;
   background: #E1E1E1;
-  transition: box-shadow 0.2s linear;
+  transition: box-shadow 0.4s linear;
 }
 .feedback__input:hover {
-  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.295);
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.195);
+}
+.feedback__input:focus {
+  background: #E1E1E1;
 }
 
 .feedback__button {
+  position: absolute;
   margin-left: -4px;
   width: 100px;
   padding: 18px 7px 16px 8px;
@@ -459,12 +470,14 @@ body {
   border: 0;
   cursor: pointer;
   color: #FFF;
-  background: #F16D7F;
-  transition: background 0.2s linear;
+  background-color: #F16D7F;
+  transition: background-color 0.4s linear;
   transition: box-shadow 0.2s linear;
 }
 .feedback__button:hover {
-  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.295);
+  width: 110px;
+  transition: 0.3s linear;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.195);
   background: #E05C6E;
 }
 

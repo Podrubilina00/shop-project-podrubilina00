@@ -59,7 +59,15 @@
     color: $black;
 }
 
+.feedback__form {
+    padding-left: 100px;
+    width: auto;
+    float: left;
+}
+
 .feedback__input {
+    position: relative;
+
     width: 256px;
     padding: 18px 64px 16px 22px;
     margin-right: 0;
@@ -73,16 +81,24 @@
 
     background: #E1E1E1;
 
-    transition: box-shadow .2s linear;
+    transition: box-shadow .4s linear;
 
     &:hover {
-        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.295);
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.195);
+    }
+
+    &:focus {
+        background: #E1E1E1;
     }
 }
 
+
 .feedback__button {
+    position: absolute;
+    
     margin-left: -4px;
     width: 100px;
+    
     padding: 18px 7px 16px 8px;
 
     border-radius: 0 22px 22px 0;
@@ -91,13 +107,15 @@
 
     color: #FFF;
 
-    background: $main-color;
-
-    transition: background .2s linear;
-    transition: box-shadow .2s linear;
+    background-color: $main-color;
 
     &:hover {
-        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.295);
+        width: 110px;
+        transition: .3s linear;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.195);
         background: $main-color-dark;
     }
+
+    transition: background-color .4s linear;
+    transition: box-shadow .2s linear;
 }
