@@ -1,6 +1,6 @@
 @import "_variables";
 .pagination__inner {
-    border: 1px solid #EBEBEB;
+    border: 1px solid $pagination-color;
 }
 
 .pagination__button {
@@ -17,13 +17,13 @@
     border: none;
     background: transparent;
     padding-left: 20px;
-    color: #EBEBEB;
-}
+    color: $pagination-color;
 
-.pagination__link:last-child {
-    padding-left: 0;
+    &:last-child {
+        padding-left: 0;
+    }
 }
 
 .pagination__ellipsis {
-    color: #EBEBEB;
+    color:$pagination-color;
 }

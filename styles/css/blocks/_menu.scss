@@ -11,7 +11,7 @@
 }
 
 .menu__title {
-    font-weight: 400;
+    font-weight: $fw-regular;
     font-size: 24px;
     line-height: 29px;
 
@@ -23,7 +23,7 @@
 }
 
 .menu__item {
-    font-weight: 300;
+    font-weight: $fw-light;
     font-size: 14px;
     line-height: 17px;
 
@@ -35,7 +35,7 @@
 }
 
 .menu__item:hover {
-    font-weight: 700;
+    font-weight: $fw-bold;
     color: $main-color;
 }
 
@@ -46,14 +46,13 @@
 
 .menu__item--slash {
     text-decoration: none;
+    &::before,
+    &::after {
+        content: "/";
+        font-weight: $fw-light;
+        margin-right: 7px;
+        margin-left: 7px;
+        color: #636363
+    }
 
-}
-
-.menu__item--slash::before,
-.menu__item--slash::after {
-    content: "/";
-    font-weight: $fw-ligh;
-    margin-right: 7px;
-    margin-left: 7px;
-    color: #636363
 }
