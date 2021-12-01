@@ -1,0 +1,29 @@
+.pagination__inner {
+  border: 1px solid #EBEBEB;
+}
+
+.pagination__button {
+  border: none;
+  background: transparent;
+}
+
+.pagination__arrow {
+  width: 8px;
+  height: 14px;
+  fill: #000;
+}
+
+.pagination__link {
+  border: none;
+  background: transparent;
+  padding-left: 20px;
+  color: #EBEBEB;
+}
+
+.pagination__link:last-child {
+  padding-left: 0;
+}
+
+.pagination__ellipsis {
+  color: #EBEBEB;
+}/*# sourceMappingURL=pagination.css.map */
