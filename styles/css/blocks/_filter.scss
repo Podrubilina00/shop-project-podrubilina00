@@ -1,3 +1,4 @@
+@import "_variables";
 .filter {
     padding-top: 33px;
     padding-bottom: 45px;
@@ -11,12 +12,11 @@
 }
 
 .filter__text {
-
-    font-weight: 600;
+    font-weight: $fw-regularv;
     font-size: 14px;
     line-height: 17px;
 
-    color: #000000;
+    color: $black;
 }
 
 .filter__burger {
@@ -24,7 +24,7 @@
     margin-left: 11px;
     width: 15px;
     height: 10px;
-    fill: #000;
+    fill: $black;
 }
 
 .filter__inner {
@@ -36,11 +36,11 @@
     text-decoration: none;
 }
 .filter__name {
-    font-weight: 400;
+    font-weight: $fw-regular;
     font-size: 14px;
     line-height: 17px;
 
-    color: #6F6E6E;
+    color: $filter-color;
 }
 
 .filter__arrow {
