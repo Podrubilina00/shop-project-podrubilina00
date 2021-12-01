@@ -9,6 +9,9 @@
     display: flex;
     width: 360px;
     margin-right: 30px;
+
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .filter__text {
@@ -34,8 +37,16 @@
 .filter__item {
     display: flex;
     text-decoration: none;
+
+    padding-left: 23px;
+
+    &:first-child {
+        padding-left: 0;
+    }
 }
 .filter__name {
+    margin-right: 9px;
+
     font-weight: $fw-regular;
     font-size: 14px;
     line-height: 17px;

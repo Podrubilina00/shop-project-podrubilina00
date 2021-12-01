@@ -109,13 +109,13 @@
 
     background-color: $main-color;
 
+    transition: box-shadow .2s linear;
+    transition: background-color .4s linear;
+    transition: .3s linear;
+
     &:hover {
         width: 110px;
-        transition: .3s linear;
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.195);
         background: $main-color-dark;
     }
-
-    transition: background-color .4s linear;
-    transition: box-shadow .2s linear;
 }

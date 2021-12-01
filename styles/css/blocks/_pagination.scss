@@ -1,11 +1,22 @@
 @import "_variables";
+
+.pagination {
+    max-width: 283px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 .pagination__inner {
+    padding: 12px 12px;
     border: 1px solid $pagination-color;
 }
 
 .pagination__button {
     border: none;
     background: transparent;
+    &:first-child {
+        padding-right: 15px;
+    }
 }
 
 .pagination__arrow {
@@ -14,16 +25,37 @@
     fill: #000;
 }
 .pagination__link {
+    margin-bottom: 2px;
     border: none;
     background: transparent;
-    padding-left: 20px;
-    color: $pagination-color;
+    margin-right: 15px;
 
-    &:last-child {
-        padding-left: 0;
+    cursor: pointer;
+
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #EBEBEB;
+
+    transition: color .2s linear;
+
+    &:nth-child(7) {
+        margin-right: 0px;
+    }
+    &:hover {
+        color: #EF5B70;
     }
 }
 
+.pagination__link--active {
+    color: #EF5B70;
+}
+
+
+
 .pagination__ellipsis {
     color:$pagination-color;
+    margin: 0 -2px;
 }

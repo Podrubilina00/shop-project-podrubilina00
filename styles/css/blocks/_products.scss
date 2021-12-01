@@ -136,10 +136,10 @@
     height: 43px;
     border: 1px solid #FFF;
 
-    transition: background .2s linear;
+    transition: background-color .2s linear;
 
     &:hover {
-        background: rgba(58, 56, 56, 0.76);
+        background-color: rgba(58, 56, 56, 0.76);
     }
 }
 
@@ -180,11 +180,12 @@
     transition: background-color .4s linear;
     transition: color .4s linear;
     transition: box-shadow .2s linear;
-
+    
     &:hover {
-        transition: background-color .4s linear;
         background-color: $main-color;
         color: #FFF;
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.295);
     }
+
+
 }
