@@ -177,12 +177,14 @@
 
     color: $main-color;
 
-    transition: background-color .4s linear;
-    transition: color .4s linear;
+    transition: color .2s linear;
     transition: box-shadow .2s linear;
+    transition: background .5s linear;
+    
+    
     
     &:hover {
-        background-color: $main-color;
+        background: $main-color;
         color: #FFF;
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.295);
     }
