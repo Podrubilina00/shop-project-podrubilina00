@@ -202,12 +202,8 @@ body {
   background: rgba(33, 22, 22, 0.7);
   position: absolute;
   z-index: 2;
-  -webkit-transition: -webkit-box-shadow .3s linear;
-  transition: -webkit-box-shadow .3s linear;
-  transition: box-shadow .3s linear;
-  transition: box-shadow .3s linear, -webkit-box-shadow .3s linear;
-  -webkit-transition: background-color .3s linear;
-  transition: background-color .3s linear;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
 }
 
 .categories__content:hover {
@@ -398,21 +394,13 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #F16D7F;
-  -webkit-transition: color .2s linear;
-  transition: color .2s linear;
-  -webkit-transition: -webkit-box-shadow .2s linear;
-  transition: -webkit-box-shadow .2s linear;
-  transition: box-shadow .2s linear;
-  transition: box-shadow .2s linear, -webkit-box-shadow .2s linear;
-  -webkit-transition: background .5s linear;
-  transition: background .5s linear;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
 }
 
 .products__link:hover {
   background: #F16D7F;
   color: #FFF;
-  -webkit-box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.295);
-          box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.295);
 }
 
 .features {
