@@ -394,8 +394,8 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #F16D7F;
-  -webkit-transition: .3s linear;
-  transition: .3s linear;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .products__link:hover {
