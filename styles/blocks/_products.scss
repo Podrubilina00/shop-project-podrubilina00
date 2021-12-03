@@ -136,7 +136,7 @@
     height: 43px;
     border: 1px solid #FFF;
 
-    transition: background-color .2s linear;
+    transition: background-color .3s linear;
 
     &:hover {
         background-color: rgba(58, 56, 56, 0.76);
@@ -177,14 +177,14 @@
 
     color: $main-color;
 
-    transition: .3s;
+    transition: .3s linear;
     // transition: box-shadow .2s linear;
     // transition: background .5s linear;
      
     &:hover {
         background: $main-color;
         color: #FFF;
-        // box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.295);
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.195);
     }
 
 
