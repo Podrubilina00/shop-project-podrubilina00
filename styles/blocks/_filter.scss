@@ -1,4 +1,16 @@
 @import "_variables";
+
+.main-filter {
+    position: absolute;
+    left: 230px;
+    top: 39px;
+    width: 360px;
+    height: 531px;
+    background-color: #FFF;
+
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
 .filter {
     padding-top: 33px;
     padding-bottom: 45px;

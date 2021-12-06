@@ -1,0 +1,64 @@
+@import "_variables";
+
+.dropdown-menu {
+    // display: none;
+
+    position: absolute;
+    right: 0;
+
+    height: 764px;
+    width: 232px;
+
+    background-color: #FFF;
+
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.dd-menu__title {
+    padding-top: 37px;
+    padding-left: 34px;
+    padding-bottom: 4px;
+
+    font-weight: $fw-black;
+    font-size: 14px;
+    line-height: 17px;
+    color: $black;
+}
+
+.dd-menu__img {
+    position: absolute;
+
+    right: 17px;
+    top: 16px;
+}
+
+
+.dd-menu__inner {
+    padding-top: 20px;
+    padding-left: 33px;
+
+
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
+
+    font-weight: $fw-regular;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: $main-color;
+
+}
+
+.dd-menu__item {
+    padding-top: 12px;
+    padding-left: 54.5px;
+    display: block;
+
+    font-weight: $fw-regular;
+    font-size: 14px;
+    line-height: 17px;
+   
+    color: $filter-color;
+}
